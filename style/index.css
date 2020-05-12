@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid cyan;
+  /* outline: 1px solid cyan; */
   box-sizing: border-box;
 }
 
@@ -10,6 +10,11 @@ body {
 
 header {
   text-align: center;
+}
+
+header > nav > a {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
 }
 
 header > section {
@@ -45,4 +50,16 @@ section.flex > div:last-child {
   background: none;
   align-items: center;
   padding: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+
+footer a {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
 }
