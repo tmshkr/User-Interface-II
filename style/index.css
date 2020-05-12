@@ -1,1 +1,3 @@
-/* Add CSS styling here */
+* {
+  outline: 1px solid cyan;
+}
